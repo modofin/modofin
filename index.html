@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modofin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      position: relative;
+      background: url('47b73364-30bc-4ad3-bdf2-9862b5b7a2a4.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #000;
+    }
+    header .logo {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    header .subtext {
+      color: #f5c518;
+      letter-spacing: 1.5px;
+    }
+    header .slogan {
+      background: #fff;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+    }
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      display: flex;
+      gap: 1rem;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .language-switcher {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+    }
+    .language-switcher button {
+      margin-right: 0.5rem;
+      padding: 0.3rem 0.6rem;
+      border: 1px solid #ccc;
+      background: #fff;
+      cursor: pointer;
+    }
+    section.contact {
+      padding: 3rem 1rem;
+      text-align: center;
+      background: #f5f5f5;
+    }
+    @media (max-width: 768px) {
+      header {
+        padding: 1rem;
+      }
+      nav, .language-switcher {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="language-switcher">
+      <button>EN</button>
+      <button>FI</button>
+      <button>中文</button>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="logo">Modofin</div>
+    <div class="subtext">MODOFIN.FI</div>
+    <div class="slogan">Bridging Finland and China through trusted products.</div>
+  </header>
+  <section id="about" style="padding:3rem 1rem;text-align:center;">
+    <h2>About Us</h2>
+    <p>Content coming soon...</p>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@modofin.fi">info@modofin.fi</a></p>
+  </section>
+</body>
+</html>
